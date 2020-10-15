@@ -1,0 +1,54 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	padding: 10px;
+    margin: 0;
+    border: 10px outset #C2CCCA;
+    width: 100%;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+}
+#identificacaodatag {
+	color: red;
+	border: 10px outset #C2CCCA;
+}
+a {
+	color: green;
+}
+
+p {
+	text-align: justify;
+}
+
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+	
+.icones-redes-sociais li{
+	display: inline-block;
+}
+.icones-redes-sociais a{
+      color: white;
+}
+
+#paragrafo {
+	text-align: right;
+}
+
+#paulosantos {
+   color: pink;	
+   font-size: 220%;
+}
+/*.icones-redes-sociais*/ 

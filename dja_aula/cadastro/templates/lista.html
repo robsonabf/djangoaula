@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+    <fieldset>
+        <div class="panel panel-primary">
+        <div class="panel-heading">Lista de Cliente</div>
+                    <ul>
+                        {% for inscritos in inscricao %}
+                            <a href="{% url 'update' inscritos.id %}">
+                            <li>{{inscritos.nome}} - {{inscritos.cpf}}</li> Alterar ou Deletar </a>
+                        {% endfor %}
+                    </ul>
+        </div>
+    </fieldset>
+{% endblock %}

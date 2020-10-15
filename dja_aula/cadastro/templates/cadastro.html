@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post">
+<h1>Cadastro de Cliente</h1>
+  {% csrf_token%}
+  {{form}}
+  <button type="Submit">Cadastrar</button>
+</form>
+    {% if lista_cadastro %}
+        <a href="{% url 'delete' lista_cadastro.id %}">Delete</a>
+    {% endif %}
+
+</body>
+</html>
